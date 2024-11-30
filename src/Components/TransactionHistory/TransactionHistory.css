@@ -1,0 +1,72 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url("../../Assets/MontserratFonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: MontserratLight;
+  src: url("../../Assets/MontserratFonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: SansationLight;
+  src: url("../../Assets/SansationFonts/Sansation_Light.ttf");
+}
+
+@font-face {
+  font-family: SansationBold;
+  src: url("../../Assets/SansationFonts/Sansation_Bold.ttf");
+}
+
+.transaction-history {
+    margin: 10px 40px;
+    background-color: #f3f3f3;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin-bottom: 150px;
+    padding-bottom: 30px;
+}
+
+.transaction-heading {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    font-family: MontserratBold;
+}
+
+.transactions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.transaction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tranx-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.tranx-details h3 {
+    margin: 0;
+    font-family: MontserratBold;
+}
+
+.tranx-details p {
+    margin: 0;
+    font-family: MontserratLight;
+}
+
+.tranx-amount {
+    font-family: SansationBold;
+    font-size: 20px;
+}

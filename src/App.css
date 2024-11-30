@@ -1,4 +1,35 @@
-.App {
+@font-face {
+  font-family: SansationBold;
+  src: url("../Assets/SansationFonts/Sansation_Bold.ttf");
+}
+
+@font-face {
+  font-family: SansationLight;
+  src: url("../public/assets/fonts/SansationFonts/Sansation_Light.ttf");
+}
+
+@font-face {
+  font-family: MontserratBold;
+  src: url("../public/assets/fonts/MontserratFonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: MontserratLight;
+  src: url("../public/assets/fonts/MontserratFonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: PlayPenSansMedium;
+  src: url("../public//assets/fonts/PlayPenSansFonts/PlaypenSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: PlayPenSansExtraLight;
+  src: url("../public/assets/fonts/PlayPenSansFonts/PlaypenSans-Light.ttf");
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +66,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

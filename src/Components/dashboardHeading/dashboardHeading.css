@@ -1,0 +1,49 @@
+@font-face {
+  font-family: SansationBold;
+  src: url("../../Assets//SansationFonts/Sansation_Bold.ttf");
+}
+
+.profileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 5px solid #000;
+}
+
+.profileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 5px solid #000;
+}
+
+.dashboard-heading.mobile-only {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #F3F3F3;
+}
+
+.dashboard-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dashboard-right {
+    margin-left: auto;
+}
+
+.notification-icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.greeting {
+    font-family: SansationBold;
+}
+
+.greeting p {
+    font-size: 18px;
+}

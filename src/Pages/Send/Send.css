@@ -1,0 +1,117 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url("../../Assets/MontserratFonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: MontserratLight;
+  src: url("../../Assets/MontserratFonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: SansationLight;
+  src: url("../../Assets/SansationFonts/Sansation_Light.ttf");
+}
+
+@font-face {
+  font-family: SansationBold;
+  src: url("../../Assets/SansationFonts/Sansation_Bold.ttf");
+}
+
+@font-face {
+  font-family: PlayPenSansMedium;
+  src: url("../../Assets/PlayPenSansFonts/PlaypenSans-Medium.ttf");
+}
+
+.send-page {
+    margin: 20px 40px;
+    margin-bottom: 150px;
+}
+
+.send-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.send-search-area {
+    /* width: 1000px;
+    background-color: #f3f3f3; */
+}
+
+.send-options {
+    margin-top: 30px;
+    background-color: #f3f3f3;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.send-options h2 {
+    font-family: MontserratBold;
+}
+
+.send-search-area input {
+    width: 380px;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    background-color: #f3f3f3;
+    border: 0px;
+    padding: 0 20px;
+    border-radius: 50px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 70px;
+    top: 125px;
+    font-size: 25px;
+}
+
+.send-cta {
+    margin-top: 40px;
+    background-color: #f3f3f3;
+    padding: 100px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-family: SansationBold;
+}
+
+.send-cta p {
+    font-size: 15px;
+}
+
+.send-cta a button {
+    font-size: 20px;
+    border: 0;
+    color: #fff;
+    background-color: #000;
+    padding: 12px 24px;
+    border-radius: 20px;
+    width: 350px;
+    font-family: PlayPenSansMedium;
+    cursor: pointer;
+}
+
+.send-options-function {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.send-option-icon {
+    background-color: #D9D9D9;
+    padding: 20px;
+}
+
+.send-options-function div a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}

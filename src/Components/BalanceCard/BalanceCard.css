@@ -1,0 +1,37 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url("../../Assets/MontserratFonts/Montserrat-Bold.ttf");
+}
+
+.balance-card {
+    border-radius: 3px solid #000;
+    margin: 20px 40px;
+    color: #fff;
+    background-image: url('../../Assets/Frame\ 14396.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.balance-display {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.balance-in-naira {
+    margin-top: -10px;
+    font-family: MontserratBold;
+}
+
+.balance-in-dollar {
+    font-family: MontserratBold;
+    align-self: end;
+    margin-bottom: 20px;
+}
+.balance-display div div h2 {
+    font-size: 25px;
+    font-family: MontserratBold;
+}

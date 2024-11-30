@@ -1,0 +1,95 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url("../../Assets/MontserratFonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: MontserratLight;
+  src: url("../../Assets/MontserratFonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: SansationLight;
+  src: url("../../Assets/SansationFonts/Sansation_Light.ttf");
+}
+
+@font-face {
+  font-family: SansationBold;
+  src: url("../../Assets/SansationFonts/Sansation_Bold.ttf");
+}
+
+.savings-circle {
+    margin: 0 30px;
+    background-color: #f3f3f3;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.savings-description {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.savings-desc-heading1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.savings-desc-heading1 h2, .savings-desc-heading1 p  {
+    font-family: MontserratBold;
+}
+
+.savings-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 200px; */
+}
+
+.slide {
+    /* width: 100%; */
+    height: 10px;
+    background-color: #CEDFBC;
+    border-radius: 20px;
+    z-index: 999;
+    margin-top: 10px;
+}
+
+.saving-details-card {
+    flex-basis: 120px;
+    background-color: #f3f3f3;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.saving-details-card p {
+    font-family: MontserratBold;
+}
+
+.saving-details-card h2 {
+    font-family: SansationBold;
+}
+
+.update-card {
+    border-radius: 3px solid #000;
+    color: #fff;
+    background-image: url('../../Assets/Frame\ 14396.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-card p:nth-of-type(2) {
+    align-self: end;
+    cursor: pointer;
+}

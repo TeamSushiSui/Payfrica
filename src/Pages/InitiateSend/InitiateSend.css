@@ -1,0 +1,36 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url("../../Assets/MontserratFonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: MontserratLight;
+  src: url("../../Assets/MontserratFonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: SansationLight;
+  src: url("../../Assets/SansationFonts/Sansation_Light.ttf");
+}
+
+@font-face {
+  font-family: SansationBold;
+  src: url("../../Assets/SansationFonts/Sansation_Bold.ttf");
+}
+
+@font-face {
+  font-family: PlayPenSansMedium;
+  src: url("../../Assets/PlayPenSansFonts/PlaypenSans-Medium.ttf");
+}
+
+.tag-input {
+    height: 50px;
+    width: 100%;
+    background-color: #D9D9D9;
+    font-size: 20px;
+    font-family: SansationBold;
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+}

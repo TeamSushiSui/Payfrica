@@ -1,0 +1,104 @@
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+} */
+
+.scanner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.scanner-overlay {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scan-frame {
+  width: 250px;
+  height: 250px;
+  border: 4px solid #f5a623;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.scan-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #f5a623;
+  animation: scan-animation 2s linear infinite;
+}
+
+@keyframes scan-animation {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.control-btn {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.control-btn:hover {
+  background: #444;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background: #222;
+  padding: 10px 0;
+}
+
+.nav-btn {
+  background: none;
+  color: #888;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  color: #f5a623;
+  font-weight: bold;
+}
+
+.qr-data {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  color: #fff;
+}

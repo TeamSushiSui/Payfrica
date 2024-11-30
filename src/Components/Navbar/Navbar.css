@@ -1,0 +1,37 @@
+@font-face {
+  font-family: SansationBold;
+  src: url("../../Assets/SansationFonts/Sansation_Bold.ttf");
+}
+
+.nav-icon {
+    font-size: 25px;
+}
+
+.navbar-container {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    border-radius: 50px 50px 0 0;
+    padding: 20px;
+    background-color: #F3F3F3;
+}
+
+.navbar-container div a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-container div p {
+    font-size: 22px;
+    font-weight: 20px;
+    font-family: SansationBold;
+}
