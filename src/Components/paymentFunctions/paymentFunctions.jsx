@@ -15,19 +15,19 @@ const paymentFunctions = () => {
                 </Link>
             </div>
             <div>
-                <Link href='/'>
+                <Link to={'/'}>
                     <FaArrowUp className='function-option-icon' />
-                    <p>Send</p>
+                    <p>Withdraw</p>
                 </Link>
             </div>
             <div>
-                <Link href='/'>
+                <Link to={'/send'}>
                     <AiOutlineSend className='function-option-icon' />
                     <p>Send</p>
                 </Link>
             </div>
             <div>
-                <Link href='/'>
+                <Link to={'/generatecode'}>
                     <RiFolderReceivedFill className='function-option-icon' />
                     <p>Receive</p>
                 </Link>

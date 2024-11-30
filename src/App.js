@@ -8,7 +8,9 @@ import Payment from "./Pages/Payment/Payment";
 import QrInitPage from "./Pages/QrInitPage/QrInitPage";
 import Scan from "./Pages/Scan/scan";
 import { GlobalStateProvider } from "./Components/GlobalStateProvider"; // Import the provider
-import GenerateCode from "./Pages/InfoPage/GenerateCode";
+import GenerateCode from "./Pages/GenerateCode/GenerateCode";
+import Callback from "./callback.tsx";
+import Login from "./Pages/Login/Login.js";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       <div className="payfricaapp">
         <BrowserRouter>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route path="/" element={<Callback />} />
+            <Route path="/login" element={<Login />} />
+            <Route exact path="/home" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/savings" element={<Savings />} />
             <Route path="/send" element={<Send />} />

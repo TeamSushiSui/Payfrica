@@ -62,12 +62,12 @@ const Payment = () => {
             },
             onClose: () => { },
         });
-        console.log(config);
+        console.log("tx", config.tx_ref);
         try {
-            const res = await fetch("/verify", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ config }), // Wrap address in an object
+            const res = await fetch("http://localhost:3001/verify", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ config }), // Wrap address in an object
             });
 
             const data = await res.json();
